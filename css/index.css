@@ -284,14 +284,14 @@ animation-delay: 6s;
 	font-weight: 700;
 }
 
-.left{
+.boxx{
 	width: 370px;
 	height: 350px;
 	border: #ddd 2px solid;
 	border-radius: 20px;
 	padding: 0px 30px 30px 30px;
 }
-.left p{
+.boxx p{
 	line-height: 30px;
 }
 
@@ -305,18 +305,6 @@ animation-delay: 6s;
 	color: #FC0004;
 	padding: 50px;
 	font-weight: 800;
-}
-
-.right{
-	width: 370px;
-	height: 350px;
-	border: #ddd 2px solid;
-	border-radius: 20px;	
-	padding: 0px 30px 30px 30px;
-}
-
-.right p{
-	line-height: 30px;
 }
 
 #p3 img{
