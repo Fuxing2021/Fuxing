@@ -93,8 +93,36 @@ nav ul li a:hover{
 
 }
 
+#p6 h3{
+	text-align: center;
+	font-size: 34px;
+	font-weight: 600;
+}
 
 #p1 h3:after{
+	content: "";
+    width: 70px;
+    height: 1px;
+	position: absolute;
+	top: 52%;
+	left: 58%;
+    border-top: solid #000 3px;
+
+}
+
+#p6 h3:before{
+	content: "";
+    width: 70px;
+    height: 1px;
+	position: absolute;
+	top: 52%;
+	right: 58%;
+    border-top: solid #000 3px;
+
+}
+
+
+#p6 h3:after{
 	content: "";
     width: 70px;
     height: 1px;
@@ -108,6 +136,25 @@ nav ul li a:hover{
 #p1-2 .col-md-12 div{
 	display: flex;
 	justify-content:space-around;
+	align-items: center;
+}
+
+#p1-3 .col-md-12 div{
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+}
+
+#p1-4 .col-md-12 div{
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+}
+
+#p1-5 .col-md-12 div{
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
 }
 
 #p2 h3{
@@ -322,6 +369,10 @@ animation-delay: 6s;
 }
 
 #p4 li {
+	line-height: 40px;
+}
+
+#p6 li {
 	line-height: 40px;
 }
 
