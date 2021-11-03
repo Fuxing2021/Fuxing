@@ -8,6 +8,7 @@ body{
 	background-size: cover;
 }
 
+
 :target:before {
 content: "";
 display: block;
@@ -443,5 +444,25 @@ animation-delay: 6s;
 	line-height: 50px;
 	background: rgba(212,212,212,0.60);
 	bottom: 0;	
+}
+
+
+@media(max-width: 1420px){
+	.title{
+		font-size: 16px;
+		padding: 20px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
+	nav ul li{
+	padding: 15px 30px;
+}
+}
+
+@media(max-width: 950px){
+	nav ul li{
+	padding: 15px 15px;
+}
 }
 
